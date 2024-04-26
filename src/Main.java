@@ -3,7 +3,7 @@ public class Main {
         CreditPaymentService service = new CreditPaymentService();
         int amountOfCredit = 1_000_000;
         double iR = 9.99;
-        int timeOfPayment = 24;
+        int timeOfPayment = 12;
        double monthlyPayment = (int) service.calculate(amountOfCredit, iR, timeOfPayment);
         System.out.println(monthlyPayment);
 
